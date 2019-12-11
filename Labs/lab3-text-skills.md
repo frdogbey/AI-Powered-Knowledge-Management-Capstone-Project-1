@@ -85,11 +85,9 @@ In this section, you define the index schema by specifying which fields to inclu
 
 This exercise uses the following fields and field types:
 
-{| class="wikitable"
-|filed-names:||id||content||languageCode||keyPhrases|| organizations
-|-
-|field-types:||Edm.String||Edm.String||Edm.String||List<Edm.String>||List<Edm.String>
-|}
+| field-names: | id       | content   | languageCode | keyPhrases         | organizations     |
+|--------------|----------|-------|----------|--------------------|-------------------|
+| field-types: | Edm.String|Edm.String| Edm.String| List<Edm.String>  | List<Edm.String>  |
 
 ## Index-Sample Request
 Before you make this REST call, remember to replace the service name and the admin key in the request below if your tool does not preserve the request header between calls.
@@ -156,5 +154,5 @@ You can use GET or POST, depending on query string complexity and length. For mo
 * [How to get Started with Knowledge Mining in Azure Search](https://docs.microsoft.com/en-us/azure/search/knowledge-store-create-rest)
 * [Knowledge Store End-to-End Example](https://notebooks.azure.com/GraemeMalcolm/projects/azure-search/html/knowledge-store.ipynb)
 
-# Next Step
-## Image Skills Lab or Back to Read Me
+[Image Skills Lab](../labs/lab4-image-skills.md) or
+[Back to Read Me](../README.md)
